@@ -1,0 +1,107 @@
+.main-menu ul li a{
+	color: #444444;
+	font-weight: 700;
+	
+	text-transform: uppercase;
+	padding: 30px;
+	display: inline-block;
+}
+
+.main-menu ul li{
+	display: inline;
+}
+
+.logo a{
+	color: #444;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 11;
+}
+.slider-title{
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align:center; 
+}
+
+.table-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.table-cell h1, h2{
+	color: #fff;
+	font-size: 40px;
+}
+
+
+.table-cell p{
+	color: #ffffff;
+}
+
+header.sticky{
+	background:rgba(255,255,255,.5) none repeat
+	 scroll 0 0;
+	position: fixed; 
+}
+
+.sticky .main-menu ul li{
+	padding: 15px 20px;
+}
+
+
+
+.main-menu-area{}
+.logo{margin-top: 10px;
+	transition: all 0.3s case 0s;
+}
+.sticky.logo{margin-top: 2px;}
+
+
+.mid{
+	background-image: fixed;
+}
+.mid1{
+	background-image: fixed;
+}
+
+}
+
+#box1{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/l2.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+}
+#box2{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/40.jpg);
+	background-size: cover;
+		display: table;
+		background-attachment: fixed;
+}
+#box3{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/20.jpg);
+	background-size: cover;
+		display: table;
+		background-attachment: fixed;
+}
+#box1 p{
+	text-align: center;
+}
